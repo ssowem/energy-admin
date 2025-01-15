@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx", // JSX 지원 활성화
+    "target": "ESNext", // 최신 JavaScript 기능 지원
+    "module": "ESNext",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
